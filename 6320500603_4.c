@@ -7,6 +7,17 @@ int main()
     char *s;
     int i=0,j=0,k=0;
     scanf("%[^\n]s",s);
+    s=strtok(s," ");
+    while(s!=NULL)
+    {
+        for(;j<11;j++)
+        {
+            if(strcmp(s,b[j]))
+            {
+                k++;
+            }
+        }
+    }
 
 
 
