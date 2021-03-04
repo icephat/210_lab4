@@ -7,9 +7,9 @@ int main()
     gets(a);
     for(i=0;i<=strlen(a);i++)
     {
-        if(a[i]!=a[i+1])
+        if(a[i-1]!=a[i])
         {
-            printf("%c",a[i+1]);
+            printf("%c",a[i]);
         }
     }
 
