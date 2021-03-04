@@ -17,8 +17,19 @@ int main()
         {
             sum+=(a[j][0]*4)+(a[j][1]*2)+(a[j][2]*1);
         }
-
+        if(m<sum)
+        {
+            m=sum;
+            max=i;
+        }
+        if(mi>sum)
+        {
+            min=i;
+            mi=sum;
+        }
+        sum=0;
     }
+    printf("%d %d",max+1,min+1);
 
 
 
