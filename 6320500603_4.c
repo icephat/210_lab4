@@ -22,7 +22,7 @@ int main()
             printf("%c",toupper(s[0]));
         }
         s=strtok(NULL," ");
-        i++,k=0;
+
     }
     return 0;
 }
